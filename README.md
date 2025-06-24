@@ -17,7 +17,7 @@ BikeBuddy ist eine iOS-App zur Fahrterfassung und Challenge-Auswertung mit manue
 - `Models/` – Datenmodelle (Ride, Challenge, Achievement)
 - `ViewModels/` – Zustandsverwaltung
 - `Views/` – UI-Komponenten (z. B. Dashboard, TrackingView)
-- `Services/` – z. B. GPS-Tracking, Daten-Storage
+- `Services/` – Daten-Storage
 
 ## Installation
 Projekt kann direkt mit Xcode geöffnet werden (`BikeBuddy.xcodeproj`).
