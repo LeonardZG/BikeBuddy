@@ -1,0 +1,12 @@
+# Xcode spezifisch
+build/
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+.build/
+
+# Persönliche oder sensible Dateien
+*.plist
+

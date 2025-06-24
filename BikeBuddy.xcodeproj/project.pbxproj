@@ -6,17 +6,70 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B372DFD42DDDEDAF00A113F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B372DFD02DDDEDAF00A113F4 /* Assets.xcassets */; };
+		B372DFD52DDDEDAF00A113F4 /* BikeBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B372DFD12DDDEDAF00A113F4 /* BikeBuddyApp.swift */; };
+		B372DFD62DDDEDAF00A113F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B372DFD22DDDEDAF00A113F4 /* ContentView.swift */; };
+		B372DFDF2DDDF10F00A113F4 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B372DFDE2DDDF10F00A113F4 /* DashboardView.swift */; };
+		B372DFE12DDDF19F00A113F4 /* AddRideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B372DFE02DDDF19F00A113F4 /* AddRideView.swift */; };
+		B372DFE32DDDF1B400A113F4 /* ChallengeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B372DFE22DDDF1B400A113F4 /* ChallengeListView.swift */; };
+		B372DFE52DDDF3A300A113F4 /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B372DFE42DDDF3A300A113F4 /* ProfilView.swift */; };
+		B372DFE92DDDF40D00A113F4 /* AppSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B372DFE82DDDF40D00A113F4 /* AppSettingsView.swift */; };
+		B372DFEB2DDDF42C00A113F4 /* GPSTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B372DFEA2DDDF42C00A113F4 /* GPSTrackingView.swift */; };
+		B372DFF02DDF1B5300A113F4 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B372DFEF2DDF1B5300A113F4 /* Challenge.swift */; };
+		B372DFF22DDF202600A113F4 /* ChallengeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B372DFF12DDF202600A113F4 /* ChallengeType.swift */; };
+		B372DFF52DDF205300A113F4 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = B372DFF42DDF205300A113F4 /* Date.swift */; };
+		B372DFF72DDF219100A113F4 /* ChallengeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B372DFF62DDF219100A113F4 /* ChallengeManager.swift */; };
+		B3E639C82DDF495B00DD6A2A /* AddChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E639C72DDF495B00DD6A2A /* AddChallengeView.swift */; };
+		B3E639CA2DDF4D5D00DD6A2A /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E639C92DDF4D5D00DD6A2A /* StorageService.swift */; };
+		B3E639CC2DDF56FC00DD6A2A /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E639CB2DDF56FC00DD6A2A /* Ride.swift */; };
+		B3E639CE2DDF571D00DD6A2A /* RideManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E639CD2DDF571D00DD6A2A /* RideManager.swift */; };
+		B3E639D02DDF639500DD6A2A /* ChallengeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E639CF2DDF639500DD6A2A /* ChallengeDetailView.swift */; };
+		B3E639D22DDF7A2C00DD6A2A /* RideHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E639D12DDF7A2C00DD6A2A /* RideHistoryView.swift */; };
+		B3E639D42DE06D4F00DD6A2A /* TipService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E639D32DE06D4F00DD6A2A /* TipService.swift */; };
+		B3E639D62DE06E4D00DD6A2A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E639D52DE06E4D00DD6A2A /* LocationManager.swift */; };
+		B3E639DA2DE07E7000DD6A2A /* MapViewWithRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E639D92DE07E7000DD6A2A /* MapViewWithRoute.swift */; };
+		B3E639DC2DE080F700DD6A2A /* RideSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E639DB2DE080F700DD6A2A /* RideSummaryView.swift */; };
+		B3E639DE2DE1DCF000DD6A2A /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E639DD2DE1DCF000DD6A2A /* Achievement.swift */; };
+		B3E639E02DE1DD1500DD6A2A /* AchievementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E639DF2DE1DD1500DD6A2A /* AchievementManager.swift */; };
+		B3E639E22DE1DD3200DD6A2A /* AchievementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E639E12DE1DD3200DD6A2A /* AchievementView.swift */; };
+		B3E639E42DE3BB4100DD6A2A /* TipOfTheWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E639E32DE3BB4100DD6A2A /* TipOfTheWeekView.swift */; };
+		B3E639E62DE3BB6500DD6A2A /* OverviewBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E639E52DE3BB6500DD6A2A /* OverviewBox.swift */; };
+		B3E639E82DE3BB8500DD6A2A /* ChallengeBoxDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E639E72DE3BB8500DD6A2A /* ChallengeBoxDashboard.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B372DFC12DDDECFD00A113F4 /* BikeBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B372DFD02DDDEDAF00A113F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B372DFD12DDDEDAF00A113F4 /* BikeBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeBuddyApp.swift; sourceTree = "<group>"; };
+		B372DFD22DDDEDAF00A113F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B372DFDE2DDDF10F00A113F4 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		B372DFE02DDDF19F00A113F4 /* AddRideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRideView.swift; sourceTree = "<group>"; };
+		B372DFE22DDDF1B400A113F4 /* ChallengeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeListView.swift; sourceTree = "<group>"; };
+		B372DFE42DDDF3A300A113F4 /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
+		B372DFE82DDDF40D00A113F4 /* AppSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsView.swift; sourceTree = "<group>"; };
+		B372DFEA2DDDF42C00A113F4 /* GPSTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSTrackingView.swift; sourceTree = "<group>"; };
+		B372DFEF2DDF1B5300A113F4 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		B372DFF12DDF202600A113F4 /* ChallengeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeType.swift; sourceTree = "<group>"; };
+		B372DFF42DDF205300A113F4 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		B372DFF62DDF219100A113F4 /* ChallengeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeManager.swift; sourceTree = "<group>"; };
+		B3E639C72DDF495B00DD6A2A /* AddChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChallengeView.swift; sourceTree = "<group>"; };
+		B3E639C92DDF4D5D00DD6A2A /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		B3E639CB2DDF56FC00DD6A2A /* Ride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
+		B3E639CD2DDF571D00DD6A2A /* RideManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideManager.swift; sourceTree = "<group>"; };
+		B3E639CF2DDF639500DD6A2A /* ChallengeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeDetailView.swift; sourceTree = "<group>"; };
+		B3E639D12DDF7A2C00DD6A2A /* RideHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideHistoryView.swift; sourceTree = "<group>"; };
+		B3E639D32DE06D4F00DD6A2A /* TipService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipService.swift; sourceTree = "<group>"; };
+		B3E639D52DE06E4D00DD6A2A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B3E639D92DE07E7000DD6A2A /* MapViewWithRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewWithRoute.swift; sourceTree = "<group>"; };
+		B3E639DB2DE080F700DD6A2A /* RideSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideSummaryView.swift; sourceTree = "<group>"; };
+		B3E639DD2DE1DCF000DD6A2A /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		B3E639DF2DE1DD1500DD6A2A /* AchievementManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementManager.swift; sourceTree = "<group>"; };
+		B3E639E12DE1DD3200DD6A2A /* AchievementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementView.swift; sourceTree = "<group>"; };
+		B3E639E32DE3BB4100DD6A2A /* TipOfTheWeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipOfTheWeekView.swift; sourceTree = "<group>"; };
+		B3E639E52DE3BB6500DD6A2A /* OverviewBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewBox.swift; sourceTree = "<group>"; };
+		B3E639E72DE3BB8500DD6A2A /* ChallengeBoxDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeBoxDashboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B372DFC32DDDECFD00A113F4 /* BikeBuddy */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BikeBuddy;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B372DFBE2DDDECFD00A113F4 /* Frameworks */ = {
@@ -32,7 +85,7 @@
 		B372DFB82DDDECFD00A113F4 = {
 			isa = PBXGroup;
 			children = (
-				B372DFC32DDDECFD00A113F4 /* BikeBuddy */,
+				B372DFD32DDDEDAF00A113F4 /* BikeBuddy */,
 				B372DFC22DDDECFD00A113F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +96,98 @@
 				B372DFC12DDDECFD00A113F4 /* BikeBuddy.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B372DFD32DDDEDAF00A113F4 /* BikeBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				B372DFF32DDF204600A113F4 /* Helpers */,
+				B372DFDC2DDDEE5C00A113F4 /* SupportingFiles */,
+				B372DFDB2DDDEE5400A113F4 /* Resources */,
+				B372DFDA2DDDEE4900A113F4 /* Services */,
+				B372DFD92DDDEE3F00A113F4 /* ViewModels */,
+				B372DFD82DDDEE1F00A113F4 /* Views */,
+				B372DFD72DDDEE1C00A113F4 /* Models */,
+			);
+			path = BikeBuddy;
+			sourceTree = "<group>";
+		};
+		B372DFD72DDDEE1C00A113F4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B372DFEF2DDF1B5300A113F4 /* Challenge.swift */,
+				B372DFF12DDF202600A113F4 /* ChallengeType.swift */,
+				B3E639CB2DDF56FC00DD6A2A /* Ride.swift */,
+				B3E639D32DE06D4F00DD6A2A /* TipService.swift */,
+				B3E639DD2DE1DCF000DD6A2A /* Achievement.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B372DFD82DDDEE1F00A113F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B372DFDE2DDDF10F00A113F4 /* DashboardView.swift */,
+				B372DFD22DDDEDAF00A113F4 /* ContentView.swift */,
+				B372DFE02DDDF19F00A113F4 /* AddRideView.swift */,
+				B372DFE22DDDF1B400A113F4 /* ChallengeListView.swift */,
+				B372DFE42DDDF3A300A113F4 /* ProfilView.swift */,
+				B372DFE82DDDF40D00A113F4 /* AppSettingsView.swift */,
+				B372DFEA2DDDF42C00A113F4 /* GPSTrackingView.swift */,
+				B3E639C72DDF495B00DD6A2A /* AddChallengeView.swift */,
+				B3E639CF2DDF639500DD6A2A /* ChallengeDetailView.swift */,
+				B3E639D12DDF7A2C00DD6A2A /* RideHistoryView.swift */,
+				B3E639D92DE07E7000DD6A2A /* MapViewWithRoute.swift */,
+				B3E639DB2DE080F700DD6A2A /* RideSummaryView.swift */,
+				B3E639E12DE1DD3200DD6A2A /* AchievementView.swift */,
+				B3E639E32DE3BB4100DD6A2A /* TipOfTheWeekView.swift */,
+				B3E639E52DE3BB6500DD6A2A /* OverviewBox.swift */,
+				B3E639E72DE3BB8500DD6A2A /* ChallengeBoxDashboard.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B372DFD92DDDEE3F00A113F4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B372DFF62DDF219100A113F4 /* ChallengeManager.swift */,
+				B3E639CD2DDF571D00DD6A2A /* RideManager.swift */,
+				B3E639D52DE06E4D00DD6A2A /* LocationManager.swift */,
+				B3E639DF2DE1DD1500DD6A2A /* AchievementManager.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B372DFDA2DDDEE4900A113F4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B3E639C92DDF4D5D00DD6A2A /* StorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B372DFDB2DDDEE5400A113F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B372DFD02DDDEDAF00A113F4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B372DFDC2DDDEE5C00A113F4 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B372DFD12DDDEDAF00A113F4 /* BikeBuddyApp.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		B372DFF32DDF204600A113F4 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B372DFF42DDF205300A113F4 /* Date.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +204,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B372DFC32DDDECFD00A113F4 /* BikeBuddy */,
 			);
 			name = BikeBuddy;
 			packageProductDependencies = (
@@ -109,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B372DFD42DDDEDAF00A113F4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +262,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3E639C82DDF495B00DD6A2A /* AddChallengeView.swift in Sources */,
+				B372DFE32DDDF1B400A113F4 /* ChallengeListView.swift in Sources */,
+				B372DFE12DDDF19F00A113F4 /* AddRideView.swift in Sources */,
+				B3E639D02DDF639500DD6A2A /* ChallengeDetailView.swift in Sources */,
+				B3E639D22DDF7A2C00DD6A2A /* RideHistoryView.swift in Sources */,
+				B3E639DE2DE1DCF000DD6A2A /* Achievement.swift in Sources */,
+				B3E639D42DE06D4F00DD6A2A /* TipService.swift in Sources */,
+				B3E639DC2DE080F700DD6A2A /* RideSummaryView.swift in Sources */,
+				B3E639CE2DDF571D00DD6A2A /* RideManager.swift in Sources */,
+				B3E639E02DE1DD1500DD6A2A /* AchievementManager.swift in Sources */,
+				B3E639E82DE3BB8500DD6A2A /* ChallengeBoxDashboard.swift in Sources */,
+				B372DFD52DDDEDAF00A113F4 /* BikeBuddyApp.swift in Sources */,
+				B372DFF22DDF202600A113F4 /* ChallengeType.swift in Sources */,
+				B372DFE52DDDF3A300A113F4 /* ProfilView.swift in Sources */,
+				B372DFE92DDDF40D00A113F4 /* AppSettingsView.swift in Sources */,
+				B372DFF52DDF205300A113F4 /* Date.swift in Sources */,
+				B3E639E62DE3BB6500DD6A2A /* OverviewBox.swift in Sources */,
+				B3E639DA2DE07E7000DD6A2A /* MapViewWithRoute.swift in Sources */,
+				B3E639CC2DDF56FC00DD6A2A /* Ride.swift in Sources */,
+				B372DFDF2DDDF10F00A113F4 /* DashboardView.swift in Sources */,
+				B3E639CA2DDF4D5D00DD6A2A /* StorageService.swift in Sources */,
+				B372DFEB2DDDF42C00A113F4 /* GPSTrackingView.swift in Sources */,
+				B3E639D62DE06E4D00DD6A2A /* LocationManager.swift in Sources */,
+				B3E639E42DE3BB4100DD6A2A /* TipOfTheWeekView.swift in Sources */,
+				B3E639E22DE1DD3200DD6A2A /* AchievementView.swift in Sources */,
+				B372DFD62DDDEDAF00A113F4 /* ContentView.swift in Sources */,
+				B372DFF02DDF1B5300A113F4 /* Challenge.swift in Sources */,
+				B372DFF72DDF219100A113F4 /* ChallengeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +424,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Wir benötigen deinen Standort, um deine Fahrt zu tracken.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,6 +453,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Wir benötigen deinen Standort, um deine Fahrt zu tracken.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
