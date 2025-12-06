@@ -1,6 +1,6 @@
 # BikeBuddy
 
-BikeBuddy ist eine iOS-App zur Fahrterfassung und Challenge-Auswertung mit manueller Eingabe und GPS-Tracking. Die App wurde mit SwiftUI nach dem MVVM-Prinzip entwickelt.
+BikeBuddy ist eine iOS-App zur Fahrradfahrten erfassung und Challenge-Auswertung mit manueller Eingabe und GPS-Tracking. Die App wurde mit SwiftUI nach dem MVVM-Prinzip entwickelt.
 
 ## Funktionen
 - Manuelle Fahrtenerfassung (Datum, Distanz, Dauer)
