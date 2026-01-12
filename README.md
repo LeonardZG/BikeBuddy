@@ -7,36 +7,41 @@ Alle Daten werden lokal auf dem Gerät gespeichert.
 
 ---
 
-##✨ Funktionen
-Manuelle Fahrtenerfassung (Datum, Distanz, Dauer)
-GPS-Tracking mit Live-Karte und Routenaufzeichnung
-Erstellung und Verwaltung von Challenges
-Fortschrittsanzeige während der Fahrt (z. B. Distanz, Dauer, Geschwindigkeit)
-Fahrtenhistorie
-Erfolge (Achievements)
-Lokale Datenspeicherung (UserDefaults & JSON)
+## ✨ Funktionen
+- Manuelle Fahrtenerfassung (Datum, Distanz, Dauer)
+- GPS-Tracking mit Live-Karte und Routenaufzeichnung
+- Erstellung und Verwaltung von Challenges
+- Fortschrittsanzeige während der Fahrt (z. B. Distanz, Dauer, Geschwindigkeit)
+- Fahrtenhistorie
+- Erfolge (Achievements)
+- Lokale Datenspeicherung (UserDefaults & JSON)
 
 ---
 
-##🛠️ Technologien & Architektur
-Programmiersprache & UI
-Swift
-SwiftUI
-Architektur
-MVVM (Model–View–ViewModel)
-Apple Frameworks
-MapKit
-CoreLocation
-Persistenz
-UserDefaults
-JSON
-Es werden keine externen Third-Party-Libraries verwendet.
+## 🛠️ Technologien & Architektur
+
+### Programmiersprache & UI
+- Swift
+- SwiftUI
+
+### Architektur
+- MVVM (Model–View–ViewModel)
+
+### Apple Frameworks
+- MapKit
+- CoreLocation
+
+### Persistenz
+- UserDefaults
+- JSON
 
 ---
 
-##🧱 Projektstruktur
+## 🧱 Projektstruktur
+
 Der App-Code befindet sich im App-Target BikeBuddy und ist wie folgt aufgebaut:
-'''
+
+```text
 BikeBuddy/
 ├── Helpers/ // Hilfsfunktionen & Extensions
 ├── Models/ // Datenmodelle (Ride, Challenge, Achievement)
@@ -54,19 +59,20 @@ BikeBuddy/
 ├── RideHistoryView
 ├── ChallengeViews
 └── AchievementView
-'''
+```
 
 ---
 
-##🚀 Installation
-Repository klonen oder herunterladen
-Projekt mit Xcode öffnen (BikeBuddy.xcodeproj)
-App im Simulator oder auf einem realen iOS-Gerät starten
+## 🚀 Installation
+
+- Repository klonen oder herunterladen
+- Projekt mit Xcode öffnen (BikeBuddy.xcodeproj)
+- App im Simulator oder auf einem realen iOS-Gerät starten
 
 ---
 
-##📸 Screenshots
-'''
+## 📸 Screenshots
+```
 ![Dashboard](dashboard.png)
 ![GPS-Tracking](tracking.png)
 ![Fahrtenübersicht](fahrtenübersicht.png)
@@ -77,17 +83,19 @@ App im Simulator oder auf einem realen iOS-Gerät starten
 ![Erfolge](erfolge.png)
 ![Profil](profil.png)
 ![Einstellungen](einstellungen.png)
-'''
+```
 
 ---
 
-##📄 Lizenz & Hinweis
+## 📄 Lizenz & Hinweis
+
 Dieses Projekt ist ein privates Hochschulprojekt
 und nicht für den produktiven Einsatz vorgesehen.
 
 ---
 
-##ℹ️ Hinweise
+## ℹ️ Hinweise
+
 Alle Daten werden ausschließlich lokal gespeichert
 Keine Cloud-Anbindung
 Fokus liegt auf SwiftUI, MVVM und sauberer Projektstruktu
