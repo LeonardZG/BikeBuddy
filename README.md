@@ -72,18 +72,17 @@ BikeBuddy/
 ---
 
 ## 📸 Screenshots
-```
-![Dashboard](dashboard.png)
-![GPS-Tracking](tracking.png)
-![Fahrtenübersicht](fahrtenübersicht.png)
-![Fahrt hinzufügen](fahrt hinzufügen.png)
-![Challenges](challenges.png)
-![Challenge Details](challenge-details.png)
-![Neue Challenge](neue-challenge.png)
-![Erfolge](erfolge.png)
-![Profil](profil.png)
-![Einstellungen](einstellungen.png)
-```
+
+<img src="dashboard.png" width="300">
+<img src="tracking.png" width="300">
+<img src="fahrtenübersicht.png" width="300">
+<img src="fahrt hinzufügen.png" width="300">
+<img src="challenges.png" width="300">
+<img src="challenge-details.png" width="300">
+<img src="neue-challenge.png" width="300">
+<img src="erfolge.png" width="300">
+<img src="profil.png" width="300">
+<img src="einstellungen.png" width="300">
 
 ---
 
@@ -96,6 +95,6 @@ und nicht für den produktiven Einsatz vorgesehen.
 
 ## ℹ️ Hinweise
 
-Alle Daten werden ausschließlich lokal gespeichert
-Keine Cloud-Anbindung
-Fokus liegt auf SwiftUI, MVVM und sauberer Projektstruktu
+- Alle Daten werden ausschließlich lokal gespeichert
+- Keine Cloud-Anbindung
+- Fokus liegt auf SwiftUI, MVVM und sauberer Projektstruktu
