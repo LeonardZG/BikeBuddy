@@ -73,18 +73,30 @@ BikeBuddy/
 
 ## 📸 Screenshots
 
-<img src="dashboard.png" width="300">
-<img src="tracking.png" width="300">
-<img src="fahrtenübersicht.png" width="300">
-<img src="fahrt hinzufügen.png" width="300">
-<img src="challenges.png" width="300">
-<img src="challenge-details.png" width="300">
-<img src="neue-challenge.png" width="300">
-<img src="erfolge.png" width="300">
-<img src="profil.png" width="300">
-<img src="einstellungen.png" width="300">
+<p align="center">
+  <img src="dashboard.png" width="220" />
+  <img src="tracking.png" width="220" />
+  <img src="fahrtenübersicht.png" width="220" />
+</p>
+
+<p align="center">
+  <img src="fahrt hinzufügen.png" width="220" />
+  <img src="challenges.png" width="220" />
+  <img src="challenge-details.png" width="220" />
+</p>
+
+<p align="center">
+  <img src="neue-challenge.png" width="220" />
+  <img src="erfolge.png" width="220" />
+  <img src="profil.png" width="220" />
+</p>
+
+<p align="center">
+  <img src="einstellungen.png" width="220" />
+</p>
 
 ---
+
 
 ## 📄 Lizenz & Hinweis
 
